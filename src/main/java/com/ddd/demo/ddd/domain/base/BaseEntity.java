@@ -19,4 +19,6 @@ public class BaseEntity implements Serializable {
      * 唯一键编码
      */
     private String uuid= UUID.randomUUID().toString();
+
+    private static final long serialVersionUID = 1L;
 }
