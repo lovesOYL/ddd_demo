@@ -15,7 +15,13 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CompensateDealBillMapper {
 
+    /**
+     * 
+     * @param compensateDealLogDo
+     * 测试一下是否可以提交代码
+     */
 
+   
     /**
      * 新增售后补偿履约单信息
      *
